@@ -4,7 +4,7 @@ Este repositório reúne documentação técnica introdutória sobre os conceito
 
 ---
 
-## Estrutura do Repositorio
+## Estrutura do Repositório
 
 ### 1. Fundamentos de Teste de Software
 
@@ -20,9 +20,7 @@ Ponto de entrada do repositório. Apresenta o que é software, como ele se class
 
 Detalha três termos centrais da qualidade de software que, apesar de serem usados como sinônimos no dia a dia, possuem definições técnicas distintas e uma relação causal bem definida:
 
-```
 Erro (humano) --> Defeito (no artefato) --> Falha (no comportamento)
-```
 
 Compreender essa cadeia é essencial para comunicação precisa em análises de causa raiz, relatórios de incidente e registros em ferramentas de gestão de defeitos.
 
@@ -32,7 +30,9 @@ Compreender essa cadeia é essencial para comunicação precisa em análises de 
 
 > `7-principios-do-teste.md`
 
-Apresenta os sete princípios estabelecidos pelo ISTQB que fundamentam qualquer abordagem séria de teste. Entre os temas abordados: por que o teste exaustivo é impossível, como os defeitos se distribuem no sistema, por que testes repetidos perdem eficácia ao longo do tempo e por que a ausência de falhas não é sinônimo de qualidade.
+Apresenta os sete princípios estabelecidos pelo ISTQB que fundamentam qualquer abordagem séria de teste.
+
+Entre os temas abordados: por que o teste exaustivo é impossível, como os defeitos se distribuem no sistema, por que testes repetidos perdem eficácia ao longo do tempo e por que a ausência de falhas não é sinônimo de qualidade.
 
 ---
 
@@ -40,9 +40,7 @@ Apresenta os sete princípios estabelecidos pelo ISTQB que fundamentam qualquer 
 
 Os documentos foram escritos de forma independente, mas seguem uma progressão lógica:
 
-```
-Fundamentos de Teste  -->  Erro, Defeito e Falha  -->  Os 7 Principios do Teste
-```
+Fundamentos de Teste  -->  Erro, Defeito e Falha  -->  Os 7 Princípios do Teste
 
 Seguir essa sequência garante que os conceitos de base estejam estabelecidos antes dos temas mais específicos.
 

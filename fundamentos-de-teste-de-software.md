@@ -37,11 +37,6 @@ O objetivo principal do teste de software é **reduzir o risco de falhas em prod
 - Detectar defeitos o mais cedo possível no ciclo de desenvolvimento, quando o custo de correção é menor.
 - Fornecer informações objetivas para que stakeholders tomem decisões embasadas sobre a entrega do software.
 
-Uma citação amplamente utilizada na indústria resume bem essa lógica:
-
-> "O teste não pode provar a ausência de defeitos, mas pode demonstrar a presença deles."
-> -- Edsger W. Dijkstra
-
 #### Importância
 
 A ausência de testes estruturados tem custos diretos e indiretos que frequentemente superam o investimento que seria feito na qualidade desde o início.
