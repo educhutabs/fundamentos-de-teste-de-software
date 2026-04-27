@@ -45,7 +45,7 @@ A ausência de testes estruturados tem custos diretos e indiretos que frequentem
 
 **Conformidade e auditoria**: em domínios regulados (financeiro, saúde, defesa), os testes são exigidos por normas e regulamentações como ISO 25010, IEC 62304 e LGPD. A ausência de evidências de teste pode resultar em penalidades legais.
 
-## Resumindo
+## Resumo
 
 Testar software não é uma etapa opcional ou burocrática do desenvolvimento. É uma prática de engenharia que protege o negócio, aumenta a confiança da equipe nas mudanças realizadas e melhora a experiência do usuário final. Quanto mais cedo e de forma mais sistemática os testes forem incorporados ao processo, maior será o retorno sobre esse investimento.
 
