@@ -10,9 +10,7 @@ Na prática, é comum ouvir frases como "encontrei um bug", "o sistema deu erro"
 
 O IEEE Std 1044 e o ISTQB definem cada um desses termos de maneira específica, estabelecendo uma cadeia causal que vai da ação humana até a manifestação observável no sistema:
 
-```
 Erro (humano) --> Defeito (no artefato) --> Falha (no comportamento)
-```
 
 Essa distinção permite que times de qualidade identifiquem não apenas o que quebrou, mas onde e por que quebrou, orientando tanto a correção quanto a prevenção.
 
@@ -24,7 +22,7 @@ Um **erro** é uma ação humana que produz um resultado incorreto. É o ponto d
 
 O erro não está no software em si, mas na mente ou na ação de quem o produziu. Pode ocorrer em qualquer fase do projeto: levantamento de requisitos, arquitetura, implementação, configuração de ambiente ou escrita de casos de teste.
 
-#### Causas comuns
+**Causas comuns**
 
 - Interpretação incorreta de um requisito
 - Falta de conhecimento sobre a regra de negócio
@@ -32,7 +30,7 @@ O erro não está no software em si, mas na mente ou na ação de quem o produzi
 - Comunicação deficiente entre áreas (negócio, desenvolvimento, QA)
 - Uso inadequado de uma linguagem, framework ou API
 
-#### Exemplo
+**Exemplo**
 
 Um desenvolvedor interpreta que um campo de data deve aceitar o formato `DD/MM/YYYY`, mas a especificação define `YYYY-MM-DD`. Essa interpretação equivocada é o erro. Nenhum artefato foi comprometido ainda neste momento — o problema existe apenas como uma decisão incorreta.
 
@@ -44,14 +42,14 @@ Um **defeito** (também chamado de *bug* ou *fault*) é a representação concre
 
 O defeito existe no artefato independentemente de ter sido executado. Ele pode estar presente no sistema por dias, semanas ou anos sem ser percebido, caso o caminho de código afetado nunca seja exercitado.
 
-#### Características
+**Características**
 
 - Pode estar em qualquer artefato, não apenas no código-fonte
 - Nem todo defeito resulta em falha visível: depende das condições de execução
 - Um único erro pode introduzir múltiplos defeitos
 - Um defeito pode ser detectado por revisão estática (code review, análise de requisitos) antes mesmo de qualquer execução
 
-#### Exemplo
+**Exemplo**
 
 Seguindo o exemplo anterior, o desenvolvedor implementa a validação do campo de data aceitando apenas o formato `DD/MM/YYYY`. O código está escrito, versionado e integrado à base. O defeito agora existe no artefato: a lógica de validação está incorreta em relação ao requisito original.
 
@@ -63,13 +61,13 @@ Uma **falha** é o comportamento incorreto observado durante a execução do sof
 
 A falha é o que o usuário final, o testador ou o sistema de monitoramento percebe. Ela ocorre em tempo de execução e pode se manifestar de formas diversas: mensagem de erro, dado incorreto, travamento, comportamento inesperado ou ausência de resposta.
 
-#### Importante
+**Importante**
 
 Nem todo defeito gera uma falha imediatamente. Um defeito só se manifesta como falha quando as condições necessárias para ativá-lo são satisfeitas: uma entrada específica, um volume de dados, uma combinação de estados do sistema ou um contexto de ambiente particular.
 
 Isso explica por que sistemas com defeitos conhecidos podem operar aparentemente sem problemas por longos períodos.
 
-#### Exemplo
+**Exemplo**
 
 Um usuário tenta cadastrar uma data no formato `2025-04-26`. O sistema rejeita a entrada com uma mensagem de erro informando que o formato é inválido. Essa rejeição indevida é a falha: o comportamento observado diverge do comportamento esperado pelo requisito.
 
@@ -77,15 +75,15 @@ Um usuário tenta cadastrar uma data no formato `2025-04-26`. O sistema rejeita 
 
 ## Implicações para o Processo de Qualidade
 
-#### Detecção antecipada
+**Detecção antecipada**
 
 Quanto mais cedo na cadeia o problema for identificado, menor o custo de correção. Técnicas de **verificação estática** como code review, linting, análise de requisitos e inspeção de documentos atuam antes que qualquer defeito chegue a se manifestar como falha.
 
-#### Análise de causa raiz
+**Análise de causa raiz**
 
 Quando uma falha é encontrada em produção, a investigação deve percorrer o caminho inverso: da falha ao defeito, do defeito ao erro. Essa prática, conhecida como Root Cause Analysis (RCA), é o que diferencia times que corrigem sintomas de times que eliminam causas.
 
-#### Comunicação e registro
+**Comunicação e registro**
 
 Em ferramentas de gestão de defeitos (Jira, Azure DevOps, YouTrack), o registro adequado de um defeito deve descrever:
 
