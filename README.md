@@ -36,11 +36,19 @@ Entre os temas abordados: por que o teste exaustivo é impossível, como os defe
 
 ---
 
+### 4. Níveis de Teste de Software
+
+> `niveis-de-teste.md`
+
+Detalha os principais níveis de teste — unitário, integração, sistema, aceitação e regressão — explicando o escopo, o propósito e o momento adequado de aplicação de cada um. Apresenta o modelo V como referência estrutural e discute a relação entre os níveis de teste e pipelines de integração contínua.
+
+Indicado para quem já compreende o que é teste e quer entender como organizar o esforço de qualidade ao longo do ciclo de desenvolvimento.
+
 ## Ordem de Leitura Recomendada
 
 Os documentos foram escritos de forma independente, mas seguem uma progressão lógica:
 
-Fundamentos de Teste  -->  Erro, Defeito e Falha  -->  Os 7 Princípios do Teste
+Fundamentos de Teste  -->  Erro, Defeito e Falha  -->  Os 7 Princípios do Teste --> Níveis de Teste
 
 Seguir essa sequência garante que os conceitos de base estejam estabelecidos antes dos temas mais específicos.
 
