@@ -8,31 +8,37 @@ Este repositório reúne documentação técnica introdutória sobre os conceito
 
 ### 1. Fundamentos de Teste de Software
 
-> `fundamentos-de-teste-de-software.md`
+**fundamentos-de-teste-de-software.md**
 
-Ponto de entrada do repositório. Apresenta o que é software, como ele se classifica e por que testá-lo é uma prática de engenharia, não uma etapa opcional. Cobre os principais tipos e níveis de teste e contextualiza o impacto financeiro e operacional da ausência de qualidade no processo de desenvolvimento.
+Ponto de entrada do repositório. Apresenta o conceito de software, suas principais classificações e os motivos pelos quais o teste deve ser tratado como uma prática de engenharia, e não como uma etapa opcional do processo.
+Aborda os principais tipos e níveis de teste, além de contextualizar o impacto financeiro e operacional decorrente da ausência de qualidade ao longo do desenvolvimento.
 
 ---
 
 ### 2. Erro, Defeito e Falha
 
-> `erro-defeito-falha.md`
+**erro-defeito-falha.md**
 
-Detalha três termos centrais da qualidade de software que, apesar de serem usados como sinônimos no dia a dia, possuem definições técnicas distintas e uma relação causal bem definida:
+Detalha três termos centrais da qualidade de software que, embora frequentemente utilizados como sinônimos no cotidiano, possuem definições técnicas distintas e uma relação causal bem estabelecida:
 
-Erro (humano) --> Defeito (no artefato) --> Falha (no comportamento)
+Erro (humano) → Defeito (no artefato) → Falha (no comportamento)
 
-Compreender essa cadeia é essencial para comunicação precisa em análises de causa raiz, relatórios de incidente e registros em ferramentas de gestão de defeitos.
+A compreensão dessa cadeia é essencial para uma comunicação precisa em análises de causa raiz, relatórios de incidentes e registros em ferramentas de gestão de defeitos.
 
 ---
 
 ### 3. Os 7 Princípios do Teste de Software
 
-> `7-principios-do-teste.md`
+**7-principios-do-teste.md**
 
-Apresenta os sete princípios estabelecidos pelo ISTQB que fundamentam qualquer abordagem séria de teste.
+Apresenta os sete princípios estabelecidos pelo ISTQB que fundamentam qualquer abordagem consistente e profissional de teste de software.
 
-Entre os temas abordados: por que o teste exaustivo é impossível, como os defeitos se distribuem no sistema, por que testes repetidos perdem eficácia ao longo do tempo e por que a ausência de falhas não é sinônimo de qualidade.
+Entre os temas abordados estão:
+
+- A impossibilidade do teste exaustivo
+- A concentração de defeitos em determinadas áreas do sistema
+- A degradação da eficácia de testes repetitivos ao longo do tempo
+- A distinção entre ausência de falhas e qualidade real do produto
 
 ---
 
@@ -46,25 +52,25 @@ Indicado para quem já compreende o que é teste e quer entender como organizar 
 
 ## Ordem de Leitura Recomendada
 
-Os documentos foram escritos de forma independente, mas seguem uma progressão lógica:
+Os documentos foram escritos de forma independente, mas seguem uma progressão lógica de aprendizado:
 
-Fundamentos de Teste  -->  Erro, Defeito e Falha  -->  Os 7 Princípios do Teste --> Níveis de Teste
+**Fundamentos de Teste → Erro, Defeito e Falha → Os 7 Princípios do Teste → Níveis de Teste**
 
-Seguir essa sequência garante que os conceitos de base estejam estabelecidos antes dos temas mais específicos.
+Seguir essa sequência garante que os conceitos fundamentais estejam consolidados antes da exploração de temas mais específicos.
 
 ---
 
-## Sobre o Conteudo
+## Sobre o Conteúdo
 
-Todo o material é baseado em referências consolidadas da indústria, incluindo o syllabus do ISTQB Foundation Level, normas IEEE e bibliografia clássica de engenharia de software. As referências completas estão listadas ao final de cada documento.
+Todo o material é baseado em referências consolidadas da indústria, incluindo o syllabus do ISTQB Foundation Level, normas IEEE e bibliografia clássica de engenharia de software. As referências completas encontram-se listadas ao final de cada documento.
 
-O repositório será expandido com novos tópicos ao longo do tempo, mantendo o mesmo padrão de linguagem técnica, objetiva e acessível.
+O repositório será expandido gradualmente com novos tópicos, mantendo o mesmo padrão de linguagem técnica, objetiva e acessível.
 
 ---
 
 ## Contribuições
 
-Contribuições são bem-vindas. Se você identificar imprecisões conceituais, quiser propor novos tópicos ou sugerir melhorias na clareza do conteúdo, abra uma issue ou envie um pull request com a descrição da alteração proposta.
+Contribuições são bem-vindas. Caso identifique imprecisões conceituais, deseje propor novos tópicos ou sugerir melhorias na clareza do conteúdo, abra uma issue ou envie um pull request com a descrição da alteração proposta.
 
 ---
 
