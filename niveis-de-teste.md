@@ -4,7 +4,7 @@ Este documento apresenta os principais níveis de teste de software, detalhando 
 
 ---
 
-## O que São Níveis de Teste
+## Definição
 
 Níveis de teste são agrupamentos que organizam as atividades de teste de acordo com o estágio de desenvolvimento em que são realizadas e com o escopo do que está sendo verificado. Cada nível corresponde a uma perspectiva diferente sobre o sistema: desde a menor unidade de código isolada até o software completo em operação no ambiente do usuário.
 
