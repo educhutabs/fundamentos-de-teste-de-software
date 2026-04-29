@@ -8,7 +8,7 @@ Este repositório reúne documentação técnica introdutória sobre os conceito
 
 ### 1. Fundamentos de Teste de Software
 
-**fundamentos-de-teste-de-software.md**
+> `fundamentos-de-teste-de-software.md`
 
 Ponto de entrada do repositório. Apresenta o conceito de software, suas principais classificações e os motivos pelos quais o teste deve ser tratado como uma prática de engenharia, e não como uma etapa opcional do processo.
 Aborda os principais tipos e níveis de teste, além de contextualizar o impacto financeiro e operacional decorrente da ausência de qualidade ao longo do desenvolvimento.
@@ -17,7 +17,7 @@ Aborda os principais tipos e níveis de teste, além de contextualizar o impacto
 
 ### 2. Erro, Defeito e Falha
 
-**erro-defeito-falha.md**
+> `erro-defeito-falha.md`
 
 Detalha três termos centrais da qualidade de software que, embora frequentemente utilizados como sinônimos no cotidiano, possuem definições técnicas distintas e uma relação causal bem estabelecida:
 
@@ -29,7 +29,7 @@ A compreensão dessa cadeia é essencial para uma comunicação precisa em anál
 
 ### 3. Os 7 Princípios do Teste de Software
 
-**7-principios-do-teste.md**
+> `7-principios-do-teste.md`
 
 Apresenta os sete princípios estabelecidos pelo ISTQB que fundamentam qualquer abordagem consistente e profissional de teste de software.
 
