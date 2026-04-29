@@ -54,7 +54,9 @@ Indicado para quem já compreende o que é teste e quer entender como organizar 
 
 Os documentos foram escritos de forma independente, mas seguem uma progressão lógica de aprendizado:
 
-**Fundamentos de Teste → Erro, Defeito e Falha → Os 7 Princípios do Teste → Níveis de Teste**
+```
+Fundamentos de Teste → Erro, Defeito e Falha → Os 7 Princípios do Teste → Níveis de Teste
+```
 
 Seguir essa sequência garante que os conceitos fundamentais estejam consolidados antes da exploração de temas mais específicos.
 

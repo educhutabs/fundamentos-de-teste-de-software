@@ -26,11 +26,11 @@ Na prática, os níveis não são estanques. Em metodologias ágeis, por exemplo
 
 ## Teste Unitário
 
-**O que é**
+### O que é
 
 O teste unitário verifica o comportamento de uma unidade isolada do sistema — tipicamente uma função, método ou classe — sem depender de outros componentes. O objetivo é garantir que cada parte do código funcione corretamente de forma independente, antes de sua integração ao restante do sistema.
 
-**Características**
+### Características
 
 - Responsabilidade: É executado pelo próprio desenvolvedor durante a fase de implementação.
 
@@ -40,23 +40,19 @@ O teste unitário verifica o comportamento de uma unidade isolada do sistema —
 
 - Abrangência: Cobre caminhos lógicos, condições de contorno e casos de erro dentro da unidade testada.
 
-**Quando aplicar**
+### Quando aplicar
 
 O teste unitário é mais eficaz quando escrito simultaneamente ao código ou antes dele, como na prática do TDD (Test-Driven Development). A ausência de testes unitários eleva o custo de manutenção, pois qualquer alteração no código torna-se uma fonte de risco desconhecido.
-
-**Exemplo**
-
-Uma função que calcula o valor de desconto sobre um pedido deve ser testada com entradas variadas, como: percentual zero, percentual máximo permitido, valores negativos e valores acima do limite, verificando se o retorno corresponde exatamente ao esperado em cada cenário.
 
 ---
 
 ## Teste de Integração
 
-**O que é**
+### O que é
 
 O teste de integração verifica o comportamento do sistema quando dois ou mais componentes são combinados. O foco não reside na lógica interna de cada componente — responsabilidade do teste unitário —, mas sim na comunicação entre eles: troca de dados, contratos de interface e comportamento conjunto.
 
-**Características**
+### Características
 
 - Detecção de falhas de interface: Identifica defeitos que só se manifestam na interação entre módulos, como incompatibilidades de contrato, falhas de serialização e problemas de sincronização.
 
@@ -64,7 +60,7 @@ O teste de integração verifica o comportamento do sistema quando dois ou mais 
 
 - Dependência de ambiente: Diferente do teste unitário, este nível depende de ambientes mais próximos do real, podendo envolver bancos de dados, APIs externas e sistemas de mensageria.
 
-**Exemplo**
+### Exemplo
 
 A comunicação entre um serviço de pedidos e um serviço de estoque: deve-se testar se, ao criar um pedido, o serviço de estoque é acionado corretamente, a quantidade de itens é reservada e a resposta retorna com o status esperado para o fluxo do sistema.
 
@@ -72,11 +68,11 @@ A comunicação entre um serviço de pedidos e um serviço de estoque: deve-se t
 
 ## Teste de Sistema
 
-**O que é**
+### O que é
 
 O teste de sistema avalia o comportamento do software como um todo, em um ambiente que simula ou replica as condições de produção. Neste nível, o software é tratado como uma caixa-preta: o foco reside no comportamento observável por meio de suas interfaces externas, sem considerar a implementação interna do código.
 
-**Características**
+### Características
 
 - Abrangência: É realizado após a integração de todos os componentes e módulos.
 
@@ -86,7 +82,7 @@ O teste de sistema avalia o comportamento do software como um todo, em um ambien
 
 - Base de Teste: Utiliza casos de teste derivados diretamente das especificações de requisitos e regras de negócio.
 
-**Tipos de teste frequentemente realizados neste nível**
+### Tipos de teste frequentemente realizados neste nível
 
 - Teste Funcional: verifica se o sistema executa as funcionalidades conforme o especificado.
 
@@ -98,19 +94,15 @@ O teste de sistema avalia o comportamento do software como um todo, em um ambien
 
 - Teste de Compatibilidade: verifica o comportamento em diferentes navegadores, sistemas operacionais ou dispositivos.
 
-**Exemplo**
-
-Um sistema de gestão de pedidos testado de ponta a ponta (End-to-End): desde a criação do pedido pelo cliente, passando pela validação de estoque, processamento de pagamento e geração de nota fiscal, até a atualização final do status. Todo o fluxo é verificado via interface do usuário (UI) ou por meio das APIs públicas.
-
 ---
 
 ## Teste de Aceitação
 
-**O que é**
+### O que é
 
 O teste de aceitação verifica se o sistema atende aos critérios definidos pelo negócio e se está pronto para ser entregue ao usuário final. É o último nível de validação antes da entrada em produção e tem como referência os requisitos de negócio, em vez da especificação técnica.
 
-**Características**
+### Características
 
 - Envolvimento do cliente: Conduzido com a participação ativa do cliente, do usuário final ou de um representante do negócio (Product Owner).
 
@@ -120,7 +112,7 @@ O teste de aceitação verifica se o sistema atende aos critérios definidos pel
 
 - Flexibilidade: Pode ser executado de forma manual ou automatizada, dependendo da maturidade do processo e do contexto do projeto.
 
-**Tipos de teste de aceitação**
+### Tipos de teste de aceitação
 
 - Teste de Aceitação do Usuário (UAT): Conduzido pelos usuários finais para validar se o sistema suporta os fluxos de trabalho diários.
 
@@ -132,19 +124,15 @@ O teste de aceitação verifica se o sistema atende aos critérios definidos pel
 
 - Teste de Aceitação Regulatória: Verifica a conformidade com normas, leis e regulamentações aplicáveis ao setor (ex: LGPD, normas do Banco Central).
 
-**Exemplo**
-
-Antes do go-live de um sistema de RH, os gestores de pessoas da empresa executam os fluxos de admissão, férias e desligamento de funcionários. Eles confirmam se o sistema se comporta conforme os processos internos da organização e se a interface é intuitiva o suficiente para a operação.
-
 ---
 
 ## Teste de Regressão
 
-**O que é**
+### O que é
 
 O teste de regressão verifica se alterações realizadas no sistema — como correções de defeitos, novas funcionalidades ou refatorações — não introduziram novos erros em funcionalidades que já estavam operando corretamente. É uma prática de proteção: garante que a evolução do software não comprometa sua estabilidade prévia.
 
-**Características**
+### Características
 
 - Transversalidade: Pode ser aplicado em qualquer nível de teste (unitário, integração ou sistema).
 
@@ -154,17 +142,13 @@ O teste de regressão verifica se alterações realizadas no sistema — como co
 
 - Criticidade: É essencial em sistemas legados e em projetos com alta frequência de deploys.
 
-**Relação com CI/CD**
+### Relação com CI/CD
 
 Em pipelines de Integração Contínua (CI) e Entrega Contínua (CD), os testes de regressão automatizados são executados a cada novo commit ou pull request. Essa prática reduz o tempo de feedback e impede que códigos com regressões avancem para ambientes de homologação ou produção.
 
 ```
 Commit  -->  Build  -->  Testes Unitarios  -->  Testes de Integracao  -->  Regressao  -->  Deploy
 ```
-
-**Exemplo**
-
-Após a correção de um defeito no módulo de cálculo de frete, a suíte de regressão é executada para garantir que o módulo de pedidos, o de descontos e o fluxo de checkout — que dependem indiretamente do cálculo de frete — continuem funcionando conforme o esperado.
 
 ---
 
@@ -179,8 +163,6 @@ Após a correção de um defeito no módulo de cálculo de frete, a suíte de re
 - Aceitação: valida os fluxos de negócio e a prontidão do software para o usuário final.
 
 - Regressão: abrange qualquer escopo ou nível que possa ter sido afetado por mudanças recentes.
-
-
 
 ---
 
