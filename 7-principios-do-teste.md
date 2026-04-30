@@ -6,7 +6,7 @@ Conhecer esses princípios evita equívocos comuns — como acreditar que testar
 
 ---
 
-## Princípio 1: O Teste Demonstra a Presença de Defeitos, Não a Ausência
+## Princípio 1: O teste demonstra a presença de defeitos, não a ausência
 
 ### Conceito
 
@@ -16,12 +16,9 @@ Testar um software pode revelar que defeitos existem, mas nunca pode provar que 
 
 O objetivo do teste não é certificar que o software é perfeito, mas sim reduzir o risco de defeitos desconhecidos ao nível aceitável para o contexto do negócio. Comunicar isso claramente a stakeholders é parte do trabalho de qualquer profissional de QA.
 
-> "O teste não pode provar a ausência de defeitos, mas pode demonstrar a presença deles."
-> -- Edsger W. Dijkstra
-
 ---
 
-## Princípio 2: O Teste Exaustivo é Impossível
+## Princípio 2: O teste exaustivo é impossível
 
 ### Conceito
 
@@ -33,7 +30,7 @@ Em vez de buscar cobertura total, o esforço de teste deve ser direcionado com b
 
 ---
 
-## Princípio 3: O Teste Antecipado Economiza Tempo e Dinheiro
+## Princípio 3: O teste antecipado economiza tempo e dinheiro
 
 ### Conceito
 
@@ -45,7 +42,7 @@ O teste não começa quando o código está pronto. Atividades como revisão de 
 
 ---
 
-## Princípio 4: Os Defeitos Se Agrupam
+## Princípio 4: Os defeitos se agrupam
 
 ### Conceito
 
@@ -57,7 +54,7 @@ O histórico de defeitos de um projeto é um insumo valioso para o planejamento 
 
 ---
 
-## Princípio 5: Os Testes Se Desgastam (Paradoxo do Pesticida)
+## Princípio 5: Os testes se desgastam (Paradoxo do Pesticida)
 
 ### Conceito
 
@@ -69,7 +66,7 @@ Os casos de teste precisam ser revisados, atualizados e expandidos regularmente.
 
 ---
 
-## Princípio 6: O Teste Depende do Contexto
+## Princípio 6: O teste depende do contexto
 
 ### Conceito
 
@@ -81,7 +78,7 @@ Um software de e-commerce, um sistema embarcado de controle aeronáutico e um ap
 
 ---
 
-## Princípio 7: Ausencia de Falhas Não Significa Qualidade
+## Princípio 7: ausencia de falhas não significa qualidade
 
 ### Conceito
 
@@ -104,7 +101,11 @@ Profissionais que internalizam esses princípios tomam decisões melhores sobre 
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - IEEE Std 1044. *Standard Classification for Software Anomalies*. IEEE, 2009.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
+
 - KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. Wiley, 2001.
