@@ -4,7 +4,7 @@ Este documento detalha três conceitos fundamentais da engenharia de qualidade d
 
 ---
 
-## Visão Geral
+## Visão geral
 
 Na prática, é comum ouvir frases como "encontrei um bug", "o sistema deu erro" ou "o software falhou" sendo usadas de forma intercambiável. Essa imprecisão, apesar de aceitável em conversas informais, pode gerar ambiguidade durante análises de causa raiz, relatórios de incidente e processos de auditoria.
 
@@ -61,7 +61,7 @@ Isso explica por que sistemas com defeitos conhecidos podem operar aparentemente
 
 ---
 
-## Implicações para o Processo de Qualidade
+## Implicações para o processo de qualidade
 
 ### Detecção antecipada
 
@@ -96,6 +96,9 @@ A distinção entre erro, defeito e falha não é meramente acadêmica. Ela fund
 ## Referências
 
 - IEEE Std 1044. *Standard Classification for Software Anomalies*. IEEE, 2009.
+
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
