@@ -6,7 +6,7 @@ Conhecer esses princípios evita equívocos comuns — como acreditar que testar
 
 ---
 
-## Princípio 1: O Teste Demonstra a Presença de Defeitos, Não a Ausencia
+## Princípio 1: O Teste Demonstra a Presença de Defeitos, Não a Ausência
 
 ### Conceito
 
@@ -81,7 +81,7 @@ Um software de e-commerce, um sistema embarcado de controle aeronáutico e um ap
 
 ---
 
-## Princípio 7: Ausencia de Falhas Nao Significa Qualidade
+## Princípio 7: Ausencia de Falhas Não Significa Qualidade
 
 ### Conceito
 
