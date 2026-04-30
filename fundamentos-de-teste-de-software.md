@@ -4,7 +4,7 @@ Este documento apresenta os conceitos fundamentais de software e teste de softwa
 
 ---
 
-## O que é Software
+## O que é software
 
 Software é um conjunto de instruções lógicas, dados e documentação que, em conjunto, permitem a um computador executar tarefas específicas. Diferente do hardware, que é a parte física da máquina, o software é intangível: existe como código, reside em memória e se manifesta por meio do comportamento do sistema.
 
@@ -26,7 +26,7 @@ Independentemente da categoria, todo software é desenvolvido para resolver um p
 
 ---
 
-## O que é Teste de Software
+## O que é teste de software
 
 Teste de software é o processo de avaliação de um sistema ou componente com o objetivo de verificar se ele satisfaz os requisitos especificados e identificar defeitos antes que cheguem ao ambiente de produção.
 
@@ -34,7 +34,7 @@ Testar não significa apenas "rodar o sistema e ver se funciona". É uma discipl
 
 ---
 
-## Objetivo e Importância do Teste
+## Objetivo e importância do teste
 
 O objetivo principal do teste de software é reduzir o risco de falhas em produção, garantindo que o sistema se comporte de acordo com o esperado sob as condições definidas. Isso implica:
 
@@ -65,6 +65,9 @@ Testar software não é uma etapa opcional ou burocrática do desenvolvimento. �
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - IEEE Std 829. *Standard for Software and System Test Documentation*. IEEE, 2008.
+
 - ISO/IEC 25010. *Systems and software Quality Requirements and Evaluation (SQuaRE)*. ISO, 2011.
