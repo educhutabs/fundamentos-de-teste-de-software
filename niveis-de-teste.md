@@ -11,8 +11,11 @@ Níveis de teste são agrupamentos que organizam as atividades de teste de acord
 A definição dos níveis está diretamente relacionada ao Modelo V (V-Model), que estabelece uma correspondência entre as fases de desenvolvimento e as fases de teste:
 
 Requisitos de negócio <--> Teste de Aceitação
+
 Requisitos de sistema <--> Teste de Sistema
+
 Design de alto nivel <--> Teste de Integração
+
 Design de baixo nível <--> Teste Unitário
 
 Essa correspondência reforça o princípio do teste antecipado: cada fase de desenvolvimento possui sua respectiva contrapartida de verificação e, quanto antes os testes são planejados, menor é o custo de correção de defeitos.
