@@ -48,8 +48,6 @@ Entre os temas abordados estão:
 
 Detalha os principais níveis de teste — unitário, integração, sistema, aceitação e regressão — explicando o escopo, o propósito e o momento adequado de aplicação de cada um. Apresenta o modelo V como referência estrutural e discute a relação entre os níveis de teste e pipelines de integração contínua.
 
-Indicado para quem já compreende o que é teste e quer entender como organizar o esforço de qualidade ao longo do ciclo de desenvolvimento.
-
 ## Ordem de Leitura Recomendada
 
 Os documentos foram escritos de forma independente, mas seguem uma progressão lógica de aprendizado:
