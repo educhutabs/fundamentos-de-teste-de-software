@@ -75,8 +75,13 @@ Contribuições são bem-vindas. Caso identifique imprecisões conceituais, dese
 ## Referências Gerais
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - IEEE Std 1044. *Standard Classification for Software Anomalies*. IEEE, 2009.
+
 - IEEE Std 829. *Standard for Software and System Test Documentation*. IEEE, 2008.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
+
 - KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. Wiley, 2001.
