@@ -24,7 +24,7 @@ Na prática, os níveis não são estanques. Em metodologias ágeis, por exemplo
 
 ---
 
-## Teste Unitário
+## Teste unitário
 
 ### O que é
 
@@ -46,7 +46,7 @@ O teste unitário é mais eficaz quando escrito simultaneamente ao código ou an
 
 ---
 
-## Teste de Integração
+## Teste de integração
 
 ### O que é
 
@@ -66,7 +66,7 @@ A comunicação entre um serviço de pedidos e um serviço de estoque: deve-se t
 
 ---
 
-## Teste de Sistema
+## Teste de sistema
 
 ### O que é
 
@@ -96,7 +96,7 @@ O teste de sistema avalia o comportamento do software como um todo, em um ambien
 
 ---
 
-## Teste de Aceitação
+## Teste de aceitação
 
 ### O que é
 
@@ -126,7 +126,7 @@ O teste de aceitação verifica se o sistema atende aos critérios definidos pel
 
 ---
 
-## Teste de Regressão
+## Teste de regressão
 
 ### O que é
 
@@ -150,7 +150,7 @@ Commit --> Build --> Testes Unitários --> Testes de Integração --> Regressão
 
 ---
 
-## Visão Consolidada
+## Visão consolidada
 
 - Unitário: foca em funções, métodos ou classes de forma isolada.
 
@@ -175,6 +175,9 @@ A escolha de quanto investir em cada nível depende do contexto do projeto — r
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
+
 - HUMBLE, Jez; FARLEY, David. *Continuous Delivery*. Addison-Wesley, 2010.
