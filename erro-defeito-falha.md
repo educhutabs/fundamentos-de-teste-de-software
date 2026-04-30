@@ -65,7 +65,7 @@ Isso explica por que sistemas com defeitos conhecidos podem operar aparentemente
 
 ### Detecção antecipada
 
-Quanto mais cedo na cadeia o problema for identificado, menor o custo de correção. Técnicas de **verificação estática** como code review, linting, análise de requisitos e inspeção de documentos atuam antes que qualquer defeito chegue a se manifestar como falha.
+Quanto mais cedo na cadeia o problema for identificado, menor o custo de correção. Técnicas de verificação estática como code review, linting, análise de requisitos e inspeção de documentos atuam antes que qualquer defeito chegue a se manifestar como falha.
 
 ### Análise de causa raiz
 
@@ -75,10 +75,13 @@ Quando uma falha é encontrada em produção, a investigação deve percorrer o 
 
 Em ferramentas de gestão de defeitos (Jira, Azure DevOps, YouTrack), o registro adequado de um defeito deve descrever:
 
-- A **falha observada**: o que aconteceu
-- O **comportamento esperado**: o que deveria acontecer
-- As **condições de reprodução**: como chegar até a falha
-- O **artefato comprometido** (quando identificado): onde está o defeito
+A **falha observada**: o que aconteceu
+
+O **comportamento esperado**: o que deveria acontecer
+
+As **condições de reprodução**: como chegar até a falha
+
+O **artefato comprometido** (quando identificado): onde está o defeito
 
 Usar os termos com precisão nesse contexto melhora a rastreabilidade e a eficiência da correção.
 
