@@ -10,9 +10,17 @@ Software é um conjunto de instruções lógicas, dados e documentação que, em
 
 Do ponto de vista técnico, o software pode ser classificado em três grandes categorias:
 
-- **Software de sistema**: responsável por gerenciar os recursos do hardware e fornecer uma plataforma para outros programas. Exemplos: sistemas operacionais (Linux, Windows), drivers e firmware.
-- **Software de aplicação**: projetado para atender necessidades específicas do usuário final. Exemplos: ERPs, aplicativos web, sistemas de e-commerce.
-- **Software embarcado**: integrado a dispositivos físicos, com recursos limitados e requisitos rígidos de tempo de resposta. Exemplos: software de roteadores, painéis de automóveis e eletrodomésticos inteligentes.
+**Software de sistema**: responsável por gerenciar os recursos do hardware e fornecer uma plataforma para outros programas. 
+
+Exemplos: sistemas operacionais (Linux, Windows), drivers e firmware.
+
+**Software de aplicação**: projetado para atender necessidades específicas do usuário final. 
+
+Exemplos: ERPs, aplicativos web, sistemas de e-commerce.
+
+**Software embarcado**: integrado a dispositivos físicos, com recursos limitados e requisitos rígidos de tempo de resposta. 
+
+Exemplos: software de roteadores, painéis de automóveis e eletrodomésticos inteligentes.
 
 Independentemente da categoria, todo software é desenvolvido para resolver um problema dentro de um contexto determinado. Essa premissa é central para entender por que testá-lo é indispensável.
 
@@ -28,11 +36,14 @@ Testar não significa apenas "rodar o sistema e ver se funciona". É uma discipl
 
 ## Objetivo e Importância do Teste
 
-O objetivo principal do teste de software é **reduzir o risco de falhas em produção**, garantindo que o sistema se comporte de acordo com o esperado sob as condições definidas. Isso implica:
+O objetivo principal do teste de software é reduzir o risco de falhas em produção, garantindo que o sistema se comporte de acordo com o esperado sob as condições definidas. Isso implica:
 
 - Verificar se os requisitos funcionais foram implementados corretamente.
+
 - Validar que requisitos não funcionais (desempenho, segurança, usabilidade) estão sendo atendidos.
+
 - Detectar defeitos o mais cedo possível no ciclo de desenvolvimento, quando o custo de correção é menor.
+
 - Fornecer informações objetivas para que stakeholders tomem decisões embasadas sobre a entrega do software.
 
 A ausência de testes estruturados tem custos diretos e indiretos que frequentemente superam o investimento que seria feito na qualidade desde o início.
