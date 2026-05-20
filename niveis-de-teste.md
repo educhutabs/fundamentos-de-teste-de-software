@@ -212,15 +212,3 @@ Para padronização neste repositório, adotam-se as seguintes diretrizes:
 Os níveis de teste não são excludentes e não competem entre si. Em uma estratégia madura, eles se complementam para formar uma malha progressiva de detecção, prevenção e redução de risco ao longo do ciclo de vida do software.
 
 A distribuição do investimento entre esses níveis depende do contexto do produto, da arquitetura, da frequência de mudança, da criticidade do domínio e da maturidade do time. Ainda assim, ignorar sistematicamente qualquer um desses níveis costuma deslocar risco e custo para momentos mais tardios, onde a correção tende a ser mais cara e mais impactante para o negócio.
-
----
-
-## Referências
-
-- ASTQB. *Section 2.2 Test Levels and Test Types - Official ISTQB Exam*.
-- ISTQB. *Certified Tester Foundation Level Syllabus v4.0.1*.
-- ISTQB. *Certified Tester Foundation Level (CTFL) v4.0 Overview*.
-- ISTQB Glossary. *Regression testing*.
-- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Hoboken: Wiley, 2011.
-- PRESSMAN, Roger S.; MAXIM, Bruce R. *Software Engineering: A Practitioner’s Approach*. 9. ed. New York: McGraw-Hill, 2019.
-- HUMBLE, Jez; FARLEY, David. *Continuous Delivery*. Boston: Addison-Wesley, 2010.
