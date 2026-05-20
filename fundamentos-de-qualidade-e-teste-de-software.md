@@ -151,14 +151,3 @@ Para fins de alinhamento organizacional, este documento parte das seguintes dire
 Testar software é uma prática essencial para proteger o negócio, sustentar a evolução do produto e aumentar a confiança nas mudanças realizadas. Mais do que encontrar defeitos, o teste fornece visibilidade objetiva sobre riscos, aderência a requisitos e nível de qualidade disponível para entrega em um dado contexto.
 
 Quando incorporado desde cedo e de forma sistemática, o teste fortalece a engenharia, reduz retrabalho e melhora a capacidade da organização de entregar software com consistência e responsabilidade.
-
----
-
-## Referências
-
-- ISTQB. *Certified Tester Foundation Level (CTFL) v4.0*. International Software Testing Qualifications Board.
-- ISTQB. *Certified Tester Foundation Level Syllabus v4.0.1*.
-- ISO. *ISO/IEC 25010:2011*.
-- ISO. *ISO/IEC 25010:2023*.
-- NIST. *The Economic Impacts of Inadequate Infrastructure for Software Testing*.
-- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley.
