@@ -68,17 +68,6 @@ Contribuições são bem-vindas, especialmente em quatro frentes:
 - atualização de referências técnicas e normativas.
 
 Ao propor alterações, o ideal é manter o padrão de escrita já estabelecido, com foco em precisão, consistência e aplicabilidade prática para times de engenharia.
-
----
-
-## Referências
-
-- ASTQB. *Section 2.2 Test Levels and Test Types - Official ISTQB Exam*.
-- ISTQB. *Certified Tester Foundation Level Syllabus v4.0.1*.
-- ISTQB. *Certified Tester Foundation Level (CTFL) v4.0 Overview*.
-- ISTQB Glossary. *Regression testing*.
-- IEEE Standards Association. *IEEE 829-2008 - IEEE Standard for Software and System Test Documentation*. Status: superseded.
-- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Hoboken: Wiley, 2011.
 - PRESSMAN, Roger S.; MAXIM, Bruce R. *Software Engineering: A Practitioner’s Approach*. 9. ed. New York: McGraw-Hill, 2019.
 - HUMBLE, Jez; FARLEY, David. *Continuous Delivery*. Boston: Addison-Wesley, 2010.
 - KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. New York: Wiley, 2001.
