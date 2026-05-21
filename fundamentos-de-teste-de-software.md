@@ -1,6 +1,6 @@
 # Fundamentos de Teste de Software
 
-Este documento apresenta os conceitos fundamentais de software e de teste de software. Seu objetivo é estabelecer uma base conceitual comum para desenvolvedores, analistas, testadores e demais integrantes de equipes de engenharia que desejam fortalecer sua cultura de qualidade e reduzir riscos ao longo do ciclo de vida de desenvolvimento.
+Este documento apresenta os conceitos fundamentais de software e de teste de software. Seu objetivo é estabelecer uma base conceitual comum que visa fortalecer a cultura de qualidade e reduzir riscos ao longo do ciclo de vida de desenvolvimento.
 
 ---
 
@@ -20,7 +20,7 @@ Sob uma perspectiva prática, o software pode ser organizado em diferentes categ
 
 ### Software de sistema
 
-É o software responsável por gerenciar recursos computacionais e fornecer a base para execução de outros programas. Nessa categoria estão sistemas operacionais, drivers, utilitários de baixo nível e firmware [file:1].
+É o software responsável por gerenciar recursos computacionais e fornecer a base para execução de outros programas. Nessa categoria estão sistemas operacionais, drivers, utilitários de baixo nível e firmware.
 
 Exemplos:
 - Sistemas operacionais, como Linux e Windows.
@@ -29,7 +29,7 @@ Exemplos:
 
 ### Software de aplicação
 
-É o software construído para resolver necessidades específicas de usuários ou organizações. Normalmente está mais próximo do domínio de negócio e da experiência final de uso [file:1].
+É o software construído para resolver necessidades específicas de usuários ou organizações. Normalmente está mais próximo do domínio de negócio e da experiência final de uso.
 
 Exemplos:
 - ERPs.
@@ -39,7 +39,7 @@ Exemplos:
 
 ### Software embarcado
 
-É o software integrado a dispositivos físicos, geralmente com restrições de memória, processamento, energia ou tempo de resposta. Em muitos casos, opera em cenários críticos e exige alto grau de confiabilidade [file:1].
+É o software integrado a dispositivos físicos, geralmente com restrições de memória, processamento, energia ou tempo de resposta. Em muitos casos, opera em cenários críticos e exige alto grau de confiabilidade.
 
 Exemplos:
 - Roteadores.
